@@ -10,7 +10,7 @@
                         Home</a>
                     </li>
                     <li class="">
-                      <a class="headera" href="#">
+                      <a class="headera" href="{{route('search')}}">
                         <img class="iconsearch" src="{{ asset('storage/icon/searchicon.png') }}">
                         Search</a>
                     </li>               

@@ -411,7 +411,7 @@ margin: 0px;
     /* background-color: blueviolet; */
     /* background-color: transparent; */
     flex: none;
-    padding: 15px 20px;
+    padding: 7px 20px;
     /* position: sticky; */
     transition: background-color 0.4s ease-in-out;
 }
@@ -430,6 +430,8 @@ margin: 0px;
 {
     float: left;
     /* margin-left: 360px; */
+    margin-top: 5px;
+    margin-right: 3px;
 }
 .main-button
 {
@@ -450,6 +452,7 @@ margin: 0px;
 {
     display: flex;
     float: right;
+    margin-top: 5px;
 }
 .box-main-registered-explore-premium
 {
@@ -466,7 +469,7 @@ margin: 0px;
 }
 .box-main-registered-explore-premium:hover
 {
-    height: 35px;   
+    /* height: 35px;    */
 }
 .box-main-registered-install-app
 {
@@ -604,10 +607,9 @@ margin: 0px;
     /* width: 31.5%; */
         width: 192px;
     border-radius: 10px;
-    margin: 13px 24px 0px 0px;
+    /* margin: 13px 24px 0px 0px; */
     padding: 17px;
-
-    margin: 5px 27px 0px 0px;
+    margin: 5px 27px 27px 0px;
 }
 .box-content-2-main-home:hover {
     background-color: var(--maubg3-color);
@@ -644,9 +646,42 @@ margin: 0px;
     flex-wrap: wrap;
     --max-lines: 1;
     display: -webkit-box;
-    /* overflow: hidden; */
-    -webkit-box-orient: vertical;
-    /* -webkit-line-clamp: var(--max-lines); */
+    overflow: hidden;
+    /* -webkit-box-orient: vertical; */
+    -webkit-line-clamp: var(--max-lines);
+    width: 1534px;
+    margin: 0px;
+}
+.box-main-search {
+    display: flex;
+    float: left;
+    /* background-color: aliceblue;
+    border-radius: 20px;
+    padding: 5px; */
+}
+.box-main-search-icon-icon {
+    height: 33px;
+    width: 33px;
+    padding: 8px;
+    -webkit-filter: invert(50%);
+    border-radius: 50%;
+}
+input.box-main-search-text {
+    width: 350px;
+    background: none;
+    border: 0px;
+    padding: 11px 35px 11px 35px;
+    background-color: var(--maubg3-color);
+    border-radius: 21px;
+}
+input.box-main-search-text:hover
+{
+    /* -webkit-filter: invert(100%); */
+    /* background-color: var(--mautrang-color); */
+}
+.box-main-search-icon {
+    margin-right: -35px;
+    padding: 5px 0px;
 }
 /* -------------------------------------------------------------- FOOTER -----------------------------------------------------------------*/ 
 

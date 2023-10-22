@@ -104,6 +104,19 @@ Cha Viết code, Metro Boommin and drake and more
       <img src="{{ asset('storage/playlist/1.png') }}" alt="Black and white picture of a person" class="box-content-2-main-home-img-img">
    </div>
       <div class="box-content-2-main-home-img-text">
+Daily Mix 1
+      </div>
+            <div class="box-content-2-main-home-img-text-undertext">
+Cha Viết code, Metro Boommin and drake and more
+      </div>
+   
+</div>
+
+<div class="box-content-2-main-home">
+   <div class="box-content-2-main-home-img">
+      <img src="{{ asset('storage/playlist/1.png') }}" alt="Black and white picture of a person" class="box-content-2-main-home-img-img">
+   </div>
+      <div class="box-content-2-main-home-img-text">
 Daily Mix 2
       </div>
             <div class="box-content-2-main-home-img-text-undertext">
