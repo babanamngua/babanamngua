@@ -83,15 +83,15 @@ Good afternoon
 <div class="box-content-1-text">
    <DIV class="box-content-1-text-tittle">Made For Sa Liem</DIV>
 
-<div class="box-content-1-text-show-all">Show all</div>
+<div class="box-content-1-text-show-all"><a href="">Show all</a></div>
 </div>
 <div class="box-content-2-main">
 <div class="box-content-2-main-home">
    <div class="box-content-2-main-home-img">
-      <img src="{{ asset('storage/playlist/1.png') }}" alt="Black and white picture of a person" class="box-content-2-main-home-img-img">
+      <img src="{{ asset('storage/playlist/ab67fb8200005caf8eb00a9a2c00093ccde516c6.jfif') }}" alt="Black and white picture of a person" class="box-content-2-main-home-img-img">
    </div>
       <div class="box-content-2-main-home-img-text">
-Daily Mix 1
+Karaoke Hits
       </div>
             <div class="box-content-2-main-home-img-text-undertext">
 Cha Viết code, Metro Boommin and drake and more
@@ -101,10 +101,10 @@ Cha Viết code, Metro Boommin and drake and more
 
 <div class="box-content-2-main-home">
    <div class="box-content-2-main-home-img">
-      <img src="{{ asset('storage/playlist/1.png') }}" alt="Black and white picture of a person" class="box-content-2-main-home-img-img">
+      <img src="{{ asset('storage/playlist/ab67fb8200005caf55dfb53724670e4db6cee444.jfif') }}" alt="Black and white picture of a person" class="box-content-2-main-home-img-img">
    </div>
       <div class="box-content-2-main-home-img-text">
-Daily Mix 1
+Vietnamese Songs
       </div>
             <div class="box-content-2-main-home-img-text-undertext">
 Cha Viết code, Metro Boommin and drake and more
@@ -114,10 +114,10 @@ Cha Viết code, Metro Boommin and drake and more
 
 <div class="box-content-2-main-home">
    <div class="box-content-2-main-home-img">
-      <img src="{{ asset('storage/playlist/1.png') }}" alt="Black and white picture of a person" class="box-content-2-main-home-img-img">
+      <img src="{{ asset('storage/playlist/ab67fb8200005caf9e3dea60be755ccd97b7351f.jfif') }}" alt="Black and white picture of a person" class="box-content-2-main-home-img-img">
    </div>
       <div class="box-content-2-main-home-img-text">
-Daily Mix 2
+Rap Stars
       </div>
             <div class="box-content-2-main-home-img-text-undertext">
 Cha Viết code, Metro Boommin, drake and more
@@ -127,10 +127,10 @@ Cha Viết code, Metro Boommin, drake and more
 
 <div class="box-content-2-main-home">
    <div class="box-content-2-main-home-img">
-      <img src="{{ asset('storage/playlist/1.png') }}" alt="Black and white picture of a person" class="box-content-2-main-home-img-img">
+      <img src="{{ asset('storage/playlist/ab67fb8200005caf013ee3c983e6f60bf28bad5a.jfif') }}" alt="Black and white picture of a person" class="box-content-2-main-home-img-img">
    </div>
       <div class="box-content-2-main-home-img-text">
-Daily Mix 3
+K-Pop Songs
       </div>
             <div class="box-content-2-main-home-img-text-undertext">
 Cha Viết code, Metro Boommin, drake and more
@@ -199,7 +199,7 @@ Cha Viết code, Metro Boommin, drake and more
       <div class="box-content-1-text">
          <DIV class="box-content-1-text-tittle">Your Top Mixes</DIV>
       
-      <div class="box-content-1-text-show-all">Show all</div>
+      <div class="box-content-1-text-show-all"><a href="">Show all</a></div>
       </div>
       <div class="box-content-2-main">
       <div class="box-content-2-main-home">
