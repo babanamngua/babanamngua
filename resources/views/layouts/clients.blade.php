@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{asset('assets/clients/css/style.css')}}">
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' >
     @yield('css') 
-    <title>@yield('title') - cloudy</title>
+    <title>cloudy - @yield('title')</title>
 </head>
 <body>
 

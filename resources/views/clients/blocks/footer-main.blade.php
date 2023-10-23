@@ -10,26 +10,26 @@
     </thead>
     <tbody>
       <tr>
-        <td class="footer-main1-text2">About</th>
-        <td class="footer-main1-text2">For Artists</td>
-        <td class="footer-main1-text2">Support</td>
+        <td><a class="footer-main1-text2">About</a></th>
+        <td><a class="footer-main1-text2">For Artists</a></td>
+        <td><a class="footer-main1-text2">Support</a></td>
       </tr>
       <tr>
-        <td class="footer-main1-text2">Jobs</th>
-        <td class="footer-main1-text2">Developers</td>
-        <td class="footer-main1-text2">Free Moblile App</td>
+        <td><a class="footer-main1-text2">Jobs</a></th>
+        <td><a class="footer-main1-text2">Developers</a></td>
+        <td><a class="footer-main1-text2">Free Moblile App</a></td>
       </tr>
       <tr>
-        <td class="footer-main1-text2">For the Record</th>
-        <td class="footer-main1-text2">Advertising</td>
+        <td><a class="footer-main1-text2">For the Record</a></th>
+        <td><a class="footer-main1-text2">Advertising</a></td>
       </tr>
       <tr>
        <th></th>
-       <td class="footer-main1-text2">Investors</td>
+       <td><a class="footer-main1-text2">Investors</a></td>
      </tr>
      <tr>
        <th></th>
-       <td class="footer-main1-text2">Vendors</td>
+       <td><a class="footer-main1-text2">Vendors</a></td>
      </tr>
     </tbody>
   </table>
@@ -47,6 +47,6 @@
       <p class="footer-main3-text">Cookies</p>
       <p class="footer-main3-text">About Ads</p>
       <p class="footer-main3-text">Accessibility</p>
-      <p class="footer-main3-text1">© 2023 Cloudy </p>
+      <p class="footer-main3-text1">&copy; 2023 Cloudy </p>
     </div>
  </div>
