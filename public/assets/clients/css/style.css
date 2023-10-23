@@ -466,6 +466,7 @@ margin: 0px;
     border-radius: 25px;
     margin: 0px 8px 0px 0px;
     font-weight: 600;
+    cursor: pointer;
 }
 .box-main-registered-explore-premium:hover
 {
@@ -482,6 +483,7 @@ margin: 0px;
     border-radius: 25px;
     margin: 0px 8px 0px 0px;
     font-weight: 600;
+    cursor: pointer;
 }
 .box-main-registered-informaion
 {
@@ -493,6 +495,7 @@ margin: 0px;
     background: var(--maubgmain-color);
     text-align: center;
     margin: 0px 8px 0px 0px;
+    cursor: pointer;
 }
 .box-main-registered-informaion-img
 {
@@ -513,6 +516,7 @@ margin: 0px;
     background: var(--maubgmain-color);
     text-align: center;
     margin: 0px 8px 0px 0px;
+    cursor: pointer;
 }
 .box-main-registered-avatar-img
 {
