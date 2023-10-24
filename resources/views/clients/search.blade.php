@@ -96,6 +96,15 @@
          <img src="{{ asset('storage/playlist/ab67fb8200005caf9e3dea60be755ccd97b7351f.jfif') }}" alt="Black and white picture of a person" class="box-content-3-main-home-img-img">
       </div>
    </div>
+
+   <div class="box-content-3-main-home">
+      <div class="box-content-3-main-home-img">
+         <div class="box-content-3-main-home-img-text">
+Dance/Electronic
+                  </div>
+         <img src="{{ asset('storage/playlist/ab67fb8200005caf9e3dea60be755ccd97b7351f.jfif') }}" alt="Black and white picture of a person" class="box-content-3-main-home-img-img">
+      </div>
+   </div>
    
    </div>
    <div>
