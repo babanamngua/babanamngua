@@ -408,8 +408,8 @@ margin: 0px;
     left: 0;
     min-width: 892px;
     width: 100%;
-    height: 65px;
-    /* background-color: blueviolet; */
+    height: 58px;
+    background-color: blueviolet;
     /* background-color: transparent; */
     flex: none;
     padding: 7px 20px;
