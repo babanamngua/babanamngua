@@ -8,19 +8,44 @@
 @endsection
 @section('content')
    <section>
-
-      {{-- @if(session('msg'))
-      <div class="alert alert-{{session('type')}}">
-         {{session('msg')}}
+      {{-- @if (session('status'))
+      <ul>
+          <li class="text-danger"> {{ session('status') }}</li>
+      </ul>
+  @endif --}}
+  @if (count($errors) >0)
+         <ul>
+             @foreach($errors->all() as $error)
+                 <li class="text-danger"> {{ $error }}</li>
+             @endforeach
+         </ul>
+     @endif
+      @if(session('status'))
+      <div class="alert alert-success">
+         {{session('status')}}
       </div>
-      @endif --}}
+      @endif
 
 {{-- header-main --}}
-
+<div class="flex-center position-ref full-height" >
+  @if (Route::has('login'))
+      <div class="top-right links">
+         <a href="{{route('logout')}}">Logout</a>
+      @auth
+      <a href="{{route('home')}}">Home</a>
+   @else
+      <a href="{{route('login')}}">Login</a>
+   @if (Route::has( 'register'))
+      <a href="{{route('register')}}">register</a>
+   @endif
+   @endauth
+      </div>
+   @endif
 {{-- good morning --}}
    <div class="box-content-1">
 <div class="box-content-1-text">
 Good afternoon
+ {{-- {{auth()->user()->name}} --}}
 </div>
 <div class="box-content-1-main">
 <div class="box-content-1-main-home">
