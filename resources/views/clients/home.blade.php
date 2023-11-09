@@ -28,19 +28,7 @@
 
 {{-- header-main --}}
 <div class="flex-center position-ref full-height" >
-  @if (Route::has('login'))
-      <div class="top-right links">
-         <a href="{{route('logout')}}">Logout</a>
-      @auth
-      <a href="{{route('home')}}">Home</a>
-   @else
-      <a href="{{route('login')}}">Login</a>
-   @if (Route::has( 'register'))
-      <a href="{{route('register')}}">register</a>
-   @endif
-   @endauth
-      </div>
-   @endif
+
 {{-- good morning --}}
    <div class="box-content-1">
 <div class="box-content-1-text">

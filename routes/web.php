@@ -1,14 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\Clients\SearchController;
-use App\Http\Controllers\Clients\CollectionController;
-use App\Http\Controllers\admin\AdminController;
-
 use App\Http\Controllers\Clients\ClientController;
+use App\Http\Controllers\Clients\SearchController;
+
+use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\Admin\LoginController;
+use App\Http\Controllers\Admin\PlaylistController;
+
 use App\Http\Controllers\Userscontroller;
-use App\Http\Controllers\LoginController;
+
 
 
 
@@ -29,10 +30,10 @@ Route::get('/admin',[AdminController::class,'index'])->name('home_admin');
 
 Route::get('/',[ClientController::class,'index'])->name('home');
 Route::get('/search',[SearchController::class,'index'])->name('search');
-Route::get('/collection',[CollectionController::class,'index'])->name('collection');
-
-
-
+// Route::get('/collection',[CollectionController::class,'index'])->name('collection');
+Route::prefix('collection')->name('collection.')->group(function(){
+    Route::get('/playlist',[PlaylistController::class,'index'])->name('playlist');
+});
 // Route::prefix('admin')->middleware('auth')->group(function(){
 //     Route::get('/',[AdminController::class,'index'])->name('index');
 
