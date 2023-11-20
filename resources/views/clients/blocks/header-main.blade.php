@@ -1,7 +1,7 @@
 <div id="box-main" class="box-main">
   <div class="box-main-header">
      <button class="main-button"><img src="{{ asset('storage/icon/chevron-left.svg') }}" alt="Black and white picture of a person" class="main-button-img"></button>
-     <button class="main-button"><img src="{{ asset('storage/icon/chevron-right.svg') }}" alt="Black and white picture of a person" class="main-button-img"></button>
+     <button class="main-button"><img src="{{ asset('storage/icon/chevron-right.svg') }}" alt="Black and white picture of a person" class="main-button-img1"></button>
   </div>
  
   <div class="box-main-search">

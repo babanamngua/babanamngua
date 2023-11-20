@@ -51,3 +51,5 @@ Route::prefix('users')->name('users.')->group(function(){
 
     Route::get('/delete/{id}',[UsersController::class,'delete'])->name('delete');
 });
+Route::get('/playlist',[PlaylistController::class,'index'])->name('playlist');
+

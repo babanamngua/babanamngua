@@ -40,16 +40,7 @@
         </li>
     </ul>
 </div>
-<div class="container-playlist-sidebar">
-    <div class="container-playlist-sidebar-left">
-        <img src="{{ asset('storage/playlist/1.jfif') }}" alt="Black and white picture of a person" class="container-playlist-sidebar-img">
-    </div>
-    <div class="container-playlist-sidebar-right">
-        <p class="container-playlist-sidebar-text">Irene</p>
-        <p class="container-playlist-sidebar-text1">Album • Jimmy Brown</p>  
-    </div>
-    
-</div>
+
 <div class="container-playlist-sidebar">
     <div class="container-playlist-sidebar-left">
         <img src="{{ asset('storage/playlist/2.jfif') }}" alt="Black and white picture of a person" class="container-playlist-sidebar-img">
